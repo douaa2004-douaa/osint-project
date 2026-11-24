@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# OSINT scan outputs and temporary data
+scan_results/
+raw_results/
+reports/generated/
+tmp/
+
+# System
+.DS_Store
+Thumbs.db
